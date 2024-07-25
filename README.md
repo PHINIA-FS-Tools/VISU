@@ -11,24 +11,28 @@ In addition to the measurement and calibration core system, VISU includes tools 
 
 **Calibration data management:** Listing, comparing and copying calibration data, functional view, support of maturity levels, version management of calibration data sets
 
-**Measurement data acquisition:** Acquisition and online display of measurement values, calibration parameters (scalars, characteristic curves/diagrams), numerous trigger options, online signal calculation, XT/XY-oscilloscope and table display, simultaneous acquisition of parallel measurements (multi-recorder)
+**Measurement data acquisition:** Acquisition and online display of measurement values, calibration parameters (scalars, characteristic curves/diagrams), numerous trigger options, online signal calculation, XT/XY-oscilloscope and table display, simultaneous acquisition of parallel measurements, cold start acquisition, multi-ECU measurement, stimulation, polling-DAQ
 ![meas](https://github.com/user-attachments/assets/06440f60-91b6-4104-9d38-3c445924f755)
 
 
-**Measurement data analysis:** XT/XY-oscilloscope, table display, cursor, offline trigger, signal calculation, statistical analysis
+**Measurement data analysis:** XT/XY-oscilloscope, table display, cursor, offline trigger, signal calculation, statistical analysis, calculated signals (equation) on the fly, various export features
 
 ![Measure-analysis](https://github.com/user-attachments/assets/16602f20-78c8-4a1b-abc2-f5f080774565)
 
 
-**Flash programming:** ECU-specific flash programming via Flasher application
+**Flash programming:** ECU-specific flash programming via [Flasher](https://github.com/PHINIA-FS-Tools/Flasher/) tool
 
 **Experiment environment:** Numerous user-friendly display and control elements, interface for integrating customer-specific elements
 
-**Hardware configuration:** Configuration of ECU and bus interfaces, and measurement modules, automatic search for connected hardware, advanced bus monitoring features for CAN/FlexRay/LIN buses.
+**Hardware configuration:** Configuration of ECU and bus interfaces, and measurement modules, hardware auto-scan
+
+**Bus monitoring:** Advanced bus monitoring features for CAN/FlexRay/LIN buses, grouped or chronological view of traces, J1939 (/21 and /22) transmission and monitoring
 ![bus_monitor](https://github.com/user-attachments/assets/c990a3a6-18c0-4e26-8ee9-114f9d6cd99a)
 
 
-**ECU diagnostics:** via Flasher application Error memory reading and clearing, validation of services of diagnostic services, Automation of service sequences Support of ODX into diagnostic script
+**ECU diagnostics:** via [Flasher](https://github.com/PHINIA-FS-Tools/Flasher/) tool, Error memory reading and clearing, validation of services of diagnostic services, Automation of service sequences, support of ODX into diagnostic script
+
+**Test automation:** Remote control via ASAP3 and iLinkRT
 
 ## Technical Data
 
