@@ -50,17 +50,17 @@ ETK and F-ETK interfaces are not supported.
 
 **Bus monitoring:** CAN, CAN FD, FlexRay, LIN
 
-**Measurement devices:** CAN (Vector, Peak, Softing, Kvazer, any SAE J2534 compliant device), CAN-FD (Vector, Peak), Flexray (Vector), LIN (Vector, Intrepid, Peak)
+**Measurement devices:** CAN (Vector, Peak, Softing, Kvaser, any SAE J2534 compliant device), CAN-FD (Vector, Peak, Kvaser), Flexray (Vector), LIN (Vector, Intrepid, Peak)
 
 **Test bench / automation:** ASAM ASAP3 (v2.0, v2.1.1, v3.0), iLinkRT v2.0
 
 | Bus/Protocol  | CCP  | XCP | UDS | Monitoring |
 | :------------ |:---------------:| :-----:| :-----:| :-----:|
-| CAN      | y | y | y | y |
-| FlexRay  |   | y |   | y |
-| LIN      |   |   |   | y |
-| Ethernet |   | y | y |   |
-| Serial   |   | y |   |   |
+| CAN      | ✓ | ✓ | ✓ | ✓ |
+| FlexRay  |   | ✓ |   | ✓ |
+| LIN      |   |   |   | ✓ |
+| Ethernet |   | ✓ | ✓ |   |
+| Serial   |   | ✓ |   |   |
 
 ### Data exchange
 **ECU description:** ASAM MCD-2 MC (A2L) up to 1.7.1
