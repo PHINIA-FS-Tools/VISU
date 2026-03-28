@@ -46,7 +46,7 @@ In addition to the measurement and calibration core system, VISU includes tools 
 
 ### Interfaces
 **ECU calibration:** CAN (CCP, XCP, UDS), CAN FD (XCP, UDS), Ethernet (XCP, UDS), FlexRay (XCP), Serial port (XCP), X-ETK Interface (board)
-ETK and F-ETK interfaces are not supported.
+ETK and F-ETK interfaces are not supported. (See details <a href="XETK Support.md">VISU XETK Support</a>)
 
 **Bus monitoring:** CAN, CAN FD, FlexRay, LIN
 
